@@ -1,0 +1,53 @@
+/* common CSS */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.display-flex{
+    display: flex;
+}
+/* common CSS */
+
+/* header-container CSS */
+.main-header-section{
+    background: rgba(255, 144, 14, 0.1);
+}
+.header-container{
+    max-width: 1440px;
+    height: 500px;
+    border: 2px solid red;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.header-link .list{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.list > a{
+    text-decoration: none;color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+
+}
+.header-text{
+    margin-top: 50px;
+}
+.header-link{
+    margin-top: 63px;
+}
+.header-text h2{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+text-align: center;
+}
+/* header-container CSS */
