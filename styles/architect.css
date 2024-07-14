@@ -100,3 +100,25 @@ text-align: center;
     width: 100%;
 }
 /* Banner-container CSS */
+
+
+/* Responsive CSS */
+
+@media screen and (max-width:576px){
+    .header-container{
+        flex-direction: column;
+    }
+    .header-link .list{
+        margin-left: 26px;
+    }
+     .link-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .header-container{
+        padding: 0 20px 0 10px;
+    }
+}
