@@ -158,6 +158,76 @@ border: none;
 }
 /* Feature-container-CSS */
 
+/* fact-container-css */
+.fact-container{
+    max-width: 1152px;
+    margin: 0 auto;
+    margin-bottom: 170px;
+}
+.fact-text{
+    max-width: 430px;
+}
+.fact-title{
+color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 2.9rem;
+font-weight: 700;
+line-height: 53px;
+text-align: left;
+margin-bottom: 24px;
+}
+.fact-description{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.award-card, .project-card, .client-card, .email-card{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    /* max-width: 220px; */
+ 
+}
+.fact-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 100px;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 0 25px;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box-width{
+    max-width: 180px;
+
+    margin-top: 45px;
+    margin-bottom: 58px;
+}
+.flex h4{
+    color: rgb(66, 66, 66);
+font-family: Work Sans;
+font-size: 2.8rem;
+font-weight: 600;
+line-height: 53px;
+margin-top: 10px;
+}
+.flex h5{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1.3rem ;
+    font-weight: 600;
+    line-height: 23px;
+    margin-top: 5px;
+}
 
 
 /* Responsive CSS */
@@ -184,6 +254,12 @@ border: none;
      .feature-text-container{
         padding-left: 10px;
      }
+     .fact-card{
+        grid-template-columns: repeat(1 ,1fr);
+     }
+     .fact-text{
+        margin: 0 auto;
+     }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     .header-container{
@@ -196,4 +272,10 @@ border: none;
         max-width: 430px;
         margin: 0 auto;
     }
+    .fact-card{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .fact-text{
+        margin: 0 auto;
+     }
 }
