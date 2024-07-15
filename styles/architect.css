@@ -117,6 +117,12 @@ text-align: center;
     grid-template-columns: repeat(2,1fr);
     gap: 24px;
 }
+#quick{
+    color: rgb(114, 114, 114);
+    font-weight: 400px;
+    font-family: Work Sans;
+    font-size: 2.8rem;
+}
 .feature-title{
     font-family: Work Sans;
 font-size: 2.8rem;
@@ -146,12 +152,7 @@ background: rgb(255, 144, 14);
 padding: 21px 25px;
 border: none;
 }
-#Quick{
-    color: rgb(114, 114, 114);
-    font-weight: thick;
-    font-family: Work Sans;
-    font-size: 2.8rem;
-}
+
 #feature{
     color: rgb(255, 144, 14);
 }
@@ -174,9 +175,25 @@ border: none;
         align-items: center;
          padding-right: 5px; 
      }
+     .feature-container{
+        flex-direction: column;
+     }
+     .feature-img-container{
+      grid-template-columns: repeat(1,1fr);
+     }
+     .feature-text-container{
+        padding-left: 10px;
+     }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     .header-container{
         padding: 0 20px 0 10px;
+    }
+    .feature-container{
+        flex-direction: column;
+    }
+    .feature-text-container{
+        max-width: 430px;
+        margin: 0 auto;
     }
 }
