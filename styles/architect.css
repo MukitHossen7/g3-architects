@@ -158,6 +158,90 @@ border: none;
 }
 /* Feature-container-CSS */
 
+/* love&enjoy-container-CSS */
+.love-enjoy-container{
+      max-width: 1152px;
+      height: 800px;
+      margin: 0 auto;
+      margin-bottom: 160px;
+      display: flex;
+      gap: 80px;
+}
+.enjoy-title h2{
+color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 2.8rem;
+font-weight: 700;
+line-height: 53px;
+text-align: left;
+margin-bottom: 20px;
+border-left: 5px solid rgb(255, 144, 14);
+padding-left: 26px;
+}
+.enjoy-title p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.enjoy-card .card-item{
+    padding: 15px 50px 15px 25px;
+
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    margin-bottom: 17px;
+}
+.enjoy-card .card-item h5{
+    color: rgb(19, 19, 19);
+font-family: Work Sans;
+font-size: 1.3rem;
+font-weight: 600;
+text-align: left;
+margin-bottom: 10px;
+}
+.enjoy-card .card-item p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;;
+    text-align: left;
+}
+.enjoy-img-container{
+     width: 100%;
+    
+ }
+.enjoy-img-container img{
+    width: 100%;
+}
+#year{
+    display: block;
+    color: rgb(255, 255, 255);;
+    font-size: 4rem;
+    font-weight: 700;
+}
+#experience{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.enjoy-btn{
+    border-radius: 8px;
+   background: rgb(255, 144, 14);
+   padding: 45px 42px;
+   border: none;
+   position: relative;
+   left: -40px;
+   bottom: 80px;
+}
+/* love&enjoy-container-CSS */
+
+
+
 /* fact-container-css */
 .fact-container{
     max-width: 1152px;
